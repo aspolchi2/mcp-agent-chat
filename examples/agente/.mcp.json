@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "chat": {
+      "type": "http",
+      "url": "https://TU-PROYECTO.vercel.app/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CHAT_MCP_TOKEN}"
+      }
+    }
+  }
+}
